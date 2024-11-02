@@ -1,0 +1,47 @@
+import React from "react";
+
+const Banner = () => {
+  return (
+    <div className="banner main-content px-4">
+      <div className="banner-intro justify-content-center align-items-center pb-3">
+        <div className="banner-first">
+          <h2 className="text fw-bold pb-4 ban">Vhagar On Solana</h2>
+          <p className="text text-p">
+            A Slumbering giant awakens. The noise across the Solana Blockchain has roused the titan of legend to flight. 
+            VHAGAR a community meme coin of Solana with the aim of capitalising on the current market sentiment, 
+            with her deflationary token, once again proving why she is the greatest living dragon.
+          <br/>
+          First a bellow, then a roar, this is the Vhagar who lives.
+          </p>
+          <li className="lis pb-1 token-address">
+            Token address:&nbsp;
+            <br/>
+            <a 
+              href="https://solscan.io/token/4UvV46RjhL4Xvy1DeGWBHJ2EWUwzgNN2EzUumMqMVDQA" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="no-style-link"
+            >
+              4UvV46RjhL4Xvy1DeGWBHJ2EWUwzgNN2EzUumMqMVDQA
+            </a>
+          </li>
+          <li className="lis ban pb-4 total-supply">Total Supply: 100 BILLION.</li>
+
+          <div className="d-flex">
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="storm-link">
+              <button className="storm btn me-3 fw-bold stake-button">Get VGR</button>
+            </a>
+            <a href="https://forms.vhagar.finance/airdrop/" target="_blank" rel="noopener noreferrer" className="airdrop-link">
+              <button className="airdrop btn fw-bold stake-button">Airdrop Form</button>
+            </a>
+          </div>
+        </div>
+        <div className="text-end banner-image">
+          <img src="../images/logo_icon2.png" alt="Vhagar Logo" className="banner-logo" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Banner;
